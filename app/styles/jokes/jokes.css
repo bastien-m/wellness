@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.form-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-row {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+
+.form-row input, .form-row textarea {
+    margin-left: 5px;
+    width: 200px;
+}
+
+.form-action {
+    display: flex;
+    justify-content: center;
+}
