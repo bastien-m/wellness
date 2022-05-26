@@ -31,7 +31,6 @@ export default () => {
         const handleNameChanged = React.useCallback((e: React.FormEvent<HTMLInputElement>) => {
         const newName = e.currentTarget.value;
         setNewJoke(joke => ({name: newName, content: joke?.content ?? ""}))
-        console.log(newName)
     }, [])
 
     const handleContentChanged = React.useCallback((e: React.FormEvent<HTMLTextAreaElement>) => {
